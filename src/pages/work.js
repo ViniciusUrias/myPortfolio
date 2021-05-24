@@ -51,12 +51,13 @@ export default function Work() {
 
   return (
     <Layout>
-      <div className="grid grid-cols-1 h-max w-full overflow-x-hidden p-5 mt-5 grid-rows-1 gap-5
+      <div className="grid grid-cols-1 h-max w-full overflow-x-hidden p-10  mt-5 grid-rows-1 gap-12
       sm:grid-cols-2 sm:grid-rows-3
       ">
         {images.map((item, index) => {
           return (
-            <div key={item.id} className=" rounded-md h-full w-full mx-auto bg-purple-700  shadow-2xl
+            <div className=" w-full">
+            <div key={item.id} className=" rounded-md h-full bg-opacity-50  w-max mx-auto  bg-darkPurple hover:bg-opacity-100  shadow-2xl
             xs:w-8/12 ">
               <div className="flex text-white text-lg w-full text-center uppercase justify-center pt-2 xs:break-words">
                 <h1 className="">{item.description}</h1>
@@ -66,10 +67,11 @@ export default function Work() {
               </div>
               <div className="hidden justify-center -mt-10 text-white xs:break-words sm:flex ">
                 <a href={item.url} target="_blank">
-                  <p className="">{item.url}</p>
+                  <p className="hover:text-purple-500 duration-700 pt-2">{item.url}</p>
                 </a>
                 
               </div>
+            </div>
             </div>
           );
         })}

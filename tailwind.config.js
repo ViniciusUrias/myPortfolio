@@ -10,6 +10,7 @@ module.exports = {
       },
       colors:{
         almostBlack: '#0D0012',
+        darkPurple: '#330047',
         lightPurple: '#280038'
       },
       animation: {

@@ -3,7 +3,7 @@ import {faLinkedin, faInstagram, faGithub, } from '@fortawesome/free-brands-svg-
 import Link from 'next/link'
 export default function Nav(){
     return (
-      <div className="w-44 h-screen uppercase bg-black text-purple-500 flex-col justify-between hidden xs:flex">
+      <div className="w-44 h-screen uppercase bg-black text-purple-500 flex-col justify-around hidden xs:flex">
         <div>
           <Link href="/">
             <a>
@@ -67,6 +67,12 @@ export default function Nav(){
             />
           </a>
         </div>
+        <a href="https://wa.me/5519996555141" target="_blank">
+        <h1 className="text-center text-white hover:text-purple-500 duration-700">(19)9965-5151</h1>
+
+        </a>
+        <img className="p-2 mb-5" src="frame.png"></img>
+        
       </div>
     );
 }
