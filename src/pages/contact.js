@@ -43,11 +43,11 @@ export default function Contact() {
       <h1 className="block w-full text-center text-white text-3xl  hover:text-purple-500 duration-700 font-bold mb-6">
             Contact Me
           </h1>
-        <div className="w-7/12 bg-white rounded-lg  shadow-2xl p-8 m-4">
+        <div className="w-7/12 bg-darkPurple rounded-lg  shadow-2xl p-8 m-4">
           
           <form action="/" method="post">
             <div className="flex flex-col mb-4">
-              <label className="mb-2 font-bold text-lg text-gray-900">
+              <label className="mb-2 font-bold text-lg text-white">
                 Email
               </label>
               <input
@@ -60,11 +60,12 @@ export default function Contact() {
               />
             </div>
             <div className="flex flex-col  mb-4">
-              <label className="mb-2 font-bold text-lg text-gray-900">
+              <label className="mb-2 font-bold text-lg text-white">
                 Message
               </label>
               <textarea
-                className="border items-start py-2 px-3 h-32 focus:outline-none focus:ring-2 focus:ring-purple-600 text-grey-800 text-left inline-flex break-words "  
+                
+                className="border items-start py-2 px-3 h-64 resize-none focus:outline-none focus:ring-2 focus:ring-purple-600 text-grey-800 text-left inline-flex break-words "  
                 type="text"
                 name="message"
                 onChange={(e)=>{setMailMsg(e.target.value)}}
@@ -73,7 +74,7 @@ export default function Contact() {
             </div>
             <button
               className="block bg border-purple-600 border  w-1/2 
-              text-black hover:bg-almostBlack transition ease-in duration-500 hover:text-white 
+              text-white hover:bg-almostBlack transition ease-in duration-500 hover:text-white 
               hover:animate-pulse uppercase text-lg mx-auto p-4 rounded"
               type="submit"
               onClick={(e) => {handleSubmit(e)}}

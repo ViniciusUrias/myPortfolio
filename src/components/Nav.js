@@ -15,7 +15,7 @@ export default function Nav(){
           </Link>
          
           <h1 className="font-black text-3xl bg-gradient-to-r from-purple-700 border-r-4 border-purple-700 animate-pulse text-center mx-7">
-            VIBE
+            VI
           </h1>
         </div>
         <div className="text-purple-50 text-lg flex flex-col text-center">

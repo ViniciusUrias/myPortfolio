@@ -6,7 +6,7 @@ export default function Main(){
             <div className="w-full h-62 font-serif transition ease-in ">
                 <h1 className="text-6xl text-white flex-wrap w-9/12 text-center">
                     My name is Vinicius, but you can call me 
-                    <p className="text-purple-500 text-center">`Vibe`</p>
+                    <p className="text-purple-500 text-center">`Vi`</p>
                     junior web-dev
                 </h1>
                 <Link href="/contact">

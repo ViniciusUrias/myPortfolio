@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
 
     <>
     <Head>
-    <title>Vibe</title>
+    <title>Vi</title>
     </Head>
     <Component {...pageProps} />
 
